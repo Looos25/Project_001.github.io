@@ -80,9 +80,8 @@ p {
     background-color: rgba(226, 149, 54, 0.315);
     width: 250px;
     height: 70px;
-    line-height: 30px;
+    line-height: 70px;
     border-radius: 16px;
-    display: inline-block;
 }
 
 /* BODY */
@@ -125,36 +124,39 @@ body {
 }
 
 /* BUTTON */
-button {
-    background-color: rgb(255, 218, 187);
+.button a{
+    background: rgb(255, 218, 187);
+    color: rgb(35, 31, 164);
+    text-decoration: none;
     font-family: var(--font-poppins);
-    padding: 10px 15px;
-    border: transparent;
+    padding: 10px 20px;
     border-radius: 16px;
     transition: .3s ease-in-out;
+    margin-left: 3rem;
 }
 
-button:hover {
+.button a:hover {
     background-color: rgba(255, 169, 94, 0.607);
     transition: .3s ease-in-out;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
-.button-back {
-    background-color: rgba(255, 119, 0, 0.401);
-    color: white;
+.button-back a {
+    background-color: rgb(255, 218, 187);
+    color: rgb(35, 31, 164);
+    text-decoration: none;
     font-family: var(--font-poppins);
-    padding: 10px 10px;
-    border: transparent;
-    padding-right: 10px ;
+    padding: 10px 20px;
     border-radius: 16px;
     transition: .3s ease-in-out;
-    margin-left: 1rem;
-    width: 100px;
+    margin-left: 19rem;
+    margin-top: 2rem;
+    position: absolute;
+    top: 0;
 }
 
-.button-back:hover {
-    background-color: rgba(245, 157, 84, 0.752);
+.button-back a:hover {
+    background-color: rgba(255, 169, 94, 0.607);
     transition: .3s ease-in-out;
     color: aliceblue;
 }
