@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+    --font-poppins: 'Poppins' , sans-serif;
+    --font-kanit: 'Kanit' , sans-serif;
+    --font-Share: 'Share Tech Mono', monospace;
+}
+
+/* FONT AREA */
+h1 {
+    color: white;
+    font-family: var(--font-Share);
+    font-size: 30px
+}
+h2 {
+    color: white;
+    font-family: var(--font-poppins);
+    font-size: 20px;
+}
+p {
+    color: rgb(203, 203, 203);
+    font-family: var(--font-kanit);
+    font-size: large;
+    width: 700px ;
+    display: flex;
+}
+.learnmore-info-p {
+    color: rgb(57, 57, 57);
+    font-family: var(--font-poppins);
+    font-size: large;
+    width: 800px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title {
+    margin-left: 1rem;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.title-learnmore {
+    margin-left: 1rem;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.left {
+    align-items: left;
+    margin-left: 3rem;
+}
+.body-title {
+    align-items: left;
+    margin-left: 3rem;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(7, 11, 94);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(119, 0, 255, 0.473);
+    width: 420px;
+}
+.center-border {
+    margin-left: 5.5rem;
+}
+
+/* HEADER */
+.header {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(226, 149, 54, 0.315);
+    width: 250px;
+    line-height: 70px;
+    height: 70px;
+    border-radius: 16px;
+}
+
+.header-learnmore {
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+    background-color: rgba(226, 149, 54, 0.315);
+    width: 250px;
+    height: 70px;
+    line-height: 30px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+/* BODY */
+body {
+    margin: auto;
+    background: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 600px;
+    background-color: #080617
+}
+
+.intro-info {
+    margin-left: 3rem;
+    display: flex;
+}
+
+.intro-info-learnmore {
+  margin-bottom: 3rem;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(126, 238, 255, 0.504);
+  line-height: 30px;
+  border-radius: 16px;
+  margin: 0 auto; 
+  width: 800px;
+}
+
+.body-content {
+    margin-top: 320px;
+}
+
+.body-content-border {
+    background-color: rgba(136, 0, 255, 0.189);
+    width: 300px;
+    height: 300px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+button {
+    background-color: rgb(255, 218, 187);
+    font-family: var(--font-poppins);
+    padding: 10px 15px;
+    border: transparent;
+    border-radius: 16px;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(255, 169, 94, 0.607);
+    transition: .3s ease-in-out;
+    color: aliceblue;
+}
+
+.button-back {
+    background-color: rgba(255, 119, 0, 0.401);
+    color: white;
+    font-family: var(--font-poppins);
+    padding: 10px 10px;
+    border: transparent;
+    padding-right: 10px ;
+    border-radius: 16px;
+    transition: .3s ease-in-out;
+    margin-left: 1rem;
+    width: 100px;
+}
+
+.button-back:hover {
+    background-color: rgba(245, 157, 84, 0.752);
+    transition: .3s ease-in-out;
+    color: aliceblue;
+}
+
+.settings-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 85rem;
+    margin-bottom :1rem;
+}
+  
+.settings-button i {
+    transition: transform 0.3s;
+}
+  
+.settings-button:hover i {
+    transform: rotate(180deg);
+}
